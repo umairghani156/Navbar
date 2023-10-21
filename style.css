@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color:  #D5E0E0;
+}
+.navbar{
+    width: 380px;
+    height: 618px;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 2s;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+}
+.listItem2{
+    margin-top: 70px;
+}
+.listItem ul{
+    display: flex;
+}
+#items{
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px rgb(211, 211, 223);
+    font-weight: 540;
+}
+#descript{
+    margin: 30px 0;
+    list-style-type: none;
+}
+#descript a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    opacity: 0.6;
+}
+#items2{
+    color: dodgerblue;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px rgb(211, 211, 223);
+    font-weight: 540;
+    margin-left: 4px;
+ }
+ .listItem3 ul {
+    display: flex;
+ }
+ .xbtn i {
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 10px;
+    color: brown;
+ }
+ 
+ .listItem2 li{
+   font-size: 25px;
+ }
+ .listItem3 ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 230px;
+ }
+ #icons{
+   font-size: 25px;
+   padding:10px 5px ;
+   list-style-type: none;
+ }
+ #icons i {
+    color: dodgerblue;
+ } 
+ .menu i{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: dodgerblue;
+    opacity: 0.6;
+ }
+ .menu i:hover{
+    border: 3px solid rgb(5, 116, 243,0.8);
+    padding: 3px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
